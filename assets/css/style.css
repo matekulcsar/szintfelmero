@@ -251,7 +251,74 @@ body {
     display: none;
 }
 
-
 /*-----------------------------*/
 /* Portfolio end. */
+/*-----------------------------*/
+
+/*-----------------------------*/
+/* Pricing */
+/*-----------------------------*/
+
+.Pricing {
+    border-top:1px solid #d5d5d5;
+    padding-top:30px;
+    font-family: Bariol;
+}
+
+.Pricing .card-header h4 {
+    font-size:36px;
+    color:dimgray;
+    letter-spacing: 3px;
+}
+
+.Pricing .card-header p {
+    color: #eb4f4e;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom:0
+}
+
+.Pricing .card-header .Standard {
+    font-size:36px;
+    color:#eb4f4e;
+    letter-spacing: 3px;
+}
+
+.Pricing .card-header .StandardP {
+    color: dimgray;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom:0
+}
+
+.Pricing li {
+    background: #f0f0f0;
+    border-top:1px solid white;
+    border-bottom:1px solid #d4d4d4;
+    font-size:20px;
+    color:dimgray;
+    letter-spacing: 2px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.Pricing .card-header {
+    background: white;
+}
+
+.Pricing .card-body {
+    padding:0!important;
+    background: #616161;
+}
+
+.Pricing .card-title {
+    color:white;
+}
+
+.mt-3 {
+    margin-top:0!important;
+}
+
+/*-----------------------------*/
+/* Pricing end. */
 /*-----------------------------*/
