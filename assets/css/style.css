@@ -69,3 +69,60 @@ body {
 /*-----------------------------*/
 /* NAVBAR end. */
 /*-----------------------------*/
+
+/*-----------------------------*/
+/* HEADER */
+/*-----------------------------*/
+
+.Header {
+    background: #eb4f4e;
+    text-align: center;
+    color:white;
+    font-family: Bariol;
+    padding-top:30px;
+}
+
+.Header h1 {
+    font-size:60px;
+    letter-spacing: 5px;
+    text-shadow: 0px 2px #d74443;
+}
+
+.Header p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px #d74443;
+}
+
+/*-----------------------------*/
+/* HEADER end. */
+/*-----------------------------*/
+
+/*-----------------------------*/
+/* SmartCreative */
+/*-----------------------------*/
+
+.SmartCreative {
+    background: #232324;
+    text-align: center;
+    color:white;
+    font-family: Bariol;
+    padding-top:30px;
+}
+
+.SmartCreative h1 {
+    font-size:40px;
+    letter-spacing: 5px;
+    text-shadow: 0px 2px #000;
+}
+
+.SmartCreative p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px #000;
+    color: #e74c3c;
+}
+
+/*-----------------------------*/
+/* SmartCreative end. */
+/*-----------------------------*/
