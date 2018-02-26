@@ -126,3 +126,65 @@ body {
 /*-----------------------------*/
 /* SmartCreative end. */
 /*-----------------------------*/
+
+/*-----------------------------*/
+/* Talented */
+/*-----------------------------*/
+
+.Team {
+    background: #6cc372;
+    text-align: center;
+    color:white;
+    font-family: Bariol;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.Team h1 {
+    font-size:40px;
+    letter-spacing: 5px;
+    text-shadow: 0px 2px #64b86a;
+}
+
+.Team .TeamP {
+    color:#000;
+}
+
+.Team p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color:#eb4f4e;
+}
+
+.Team .TeamCard {
+    background: #FFF;
+    border: 10px solid #6cc372;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.Team .TeamCard img {
+    margin-top:15px;
+}
+
+.Team .TeamCard h2 {
+    color:#6cc372;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.Team .btnFollow {
+    background: #6cc372;
+    border:1px solid #6cc372;
+    letter-spacing: 5px;
+}
+
+.Team .btnFollow:hover {
+    background: #5eb464;
+}
+
+
+/*-----------------------------*/
+/* Talented end. */
+/*-----------------------------*/
