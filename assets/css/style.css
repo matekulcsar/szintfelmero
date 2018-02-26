@@ -128,7 +128,7 @@ body {
 /*-----------------------------*/
 
 /*-----------------------------*/
-/* Talented */
+/* Team */
 /*-----------------------------*/
 
 .Team {
@@ -186,5 +186,72 @@ body {
 
 
 /*-----------------------------*/
-/* Talented end. */
+/* Team end. */
+/*-----------------------------*/
+
+/*-----------------------------*/
+/* Portfolio */
+/*-----------------------------*/
+
+.Portfolio {
+    background: #f0f0f0;
+    text-align: center;
+    color:white;
+    font-family: Bariol;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.Portfolio h1 {
+    font-size:40px;
+    letter-spacing: 5px;
+    color:#616161;
+}
+
+.Portfolio p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color:#6cc372;
+}
+
+.Portfolio h2 {
+    color: #000;
+    font-size: 20px;
+    padding-top:20px;
+}
+
+.Portfolio img {
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+.Portfolio .CarouselItem {
+    float:left;
+}
+
+.Portfolio .carousel-control-prev {
+    justify-content: left!important;
+}
+
+.Portfolio .carousel-control-prev-icon {
+    background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#6cc372' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.Portfolio .carousel-control-next {
+    justify-content:flex-end;
+    text-align: right;
+}
+
+.Portfolio .carousel-control-next-icon {
+    background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#6cc372' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+/*-----------------------------*/
+/* Portfolio end. */
 /*-----------------------------*/

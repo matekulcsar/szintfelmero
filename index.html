@@ -108,47 +108,113 @@
       <section class="Team">
         <h1>Talented &amp; Experts</h1>
         <p class="TeamP">This is our team :)</p>
-
         <div class="container">
             <div class="row">
-                
-                
                 <div class="col-lg-3 TeamCard">
                   <img src="assets/img/team/team1.png" alt="">
                   <h2>Mahmoud Baghagho</h2>
                   <p>Senior UI Designer</p>
                     <p><a class="btn btn-secondary btn-lg btn-block btnFollow" href="#" role="button"><i class="fab fa-twitter"></i>&nbsp;Follow</a></p>
                 </div>
-                
-                
-                
                 <div class="col-lg-3 TeamCard">
                   <img src="assets/img/team/team2.png" alt="">
                   <h2>Abd ElRahman</h2>
                   <p>Senior App Developer</p>
                     <p><a class="btn btn-secondary btn-lg btn-block btnFollow" href="#" role="button"><i class="fab fa-twitter"></i>&nbsp;Follow</a></p>
                 </div>
-                
-                
                 <div class="col-lg-3 TeamCard">
                   <img src="assets/img/team/team3.png" alt="">
                   <h2>Mostafa Amin</h2>
                   <p>Senior Graphic Designer</p>
                     <p><a class="btn btn-secondary btn-lg btn-block btnFollow" href="#" role="button"><i class="fab fa-twitter"></i>&nbsp;Follow</a></p>
                 </div>
-                
                 <div class="col-lg-3 TeamCard">
                   <img src="assets/img/team/team4.png" alt="">
                   <h2>Ahmed Ali</h2>
                   <p>Senior Web Developer</p>
                     <p><a class="btn btn-secondary btn-lg btn-block btnFollow" href="#" role="button"><i class="fab fa-twitter"></i>&nbsp;Follow</a></p>
                 </div>
-                
-                
               </div>
         </div>
-
     </section> 
+     
+     <section class="Portfolio">
+        <h1>Elegant &amp; Genuine</h1>
+        <p class="">This is how our works looks like :)</p>
+        <div class="container">
+            
+            <div id="PortfolioCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#PortfolioCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#PortfolioCarousel" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="">
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work1.png" alt="">
+                      <h2>SMS Clouds</h2>
+                    </div>
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work2.png" alt="">
+                      <h2>Blue Apple Soft</h2>
+                    </div>
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work3.png" alt="">
+                      <h2>Together Application</h2>
+                    </div>
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work4.png" alt="">
+                      <h2>FCBarcelona Club</h2>
+                    </div>
+                </div>
+                  
+                <div class="carousel-item">
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work4.png" alt="">
+                      <h2>FCBarcelona Club</h2>
+                    </div>
+                  
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work2.png" alt="">
+                      <h2>Blue Apple Soft</h2>
+                    </div>
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work3.png" alt="">
+                      <h2>Together Application</h2>
+                    </div>
+                    <div class="col-lg-3 CarouselItem">
+                      <img src="assets/img/works/work1.png" alt="">
+                      <h2>SMS Clouds</h2>
+                    </div>
+                    
+                </div>
+                  
+              </div>
+                
+                         
+                
+              <a class="carousel-control-prev PortfolioPrev" href="#PortfolioCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+                <a class="carousel-control-next PortfolioNext" href="#PortfolioCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>    
+                
+              
+              
+           </div> <!-- PortfolioCarousel -->
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+     </section>
      
      
 
@@ -162,7 +228,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
+    <script>
+     $(document).ready(function() {
+        $('.carousel').carousel({
+          interval: 6000
+        })
+      });  
+    </script>
       
   </body>
 </html>
